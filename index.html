@@ -3,10 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs@gh-pages/qrcode.min.js"></script>
 	<title>QR-Generator</title>
 </head>
 <body>
-	
+	<div class="container">
+        <h1>Generador QR</h1>
+        <div id="codigoQR"></div>
+        <input id="link" type="text" placeholder="https://www.ejemplo.com">
+        <button id="generateBtn">
+            Generar <i class="bx bx-repost"></i>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
 
